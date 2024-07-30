@@ -1,0 +1,617 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		C87E47DB2C50A2FC004B993B /* SiamAIApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = C87E47DA2C50A2FC004B993B /* SiamAIApp.swift */; };
+		C87E47DD2C50A2FC004B993B /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C87E47DC2C50A2FC004B993B /* ContentView.swift */; };
+		C87E47DF2C50A2FD004B993B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C87E47DE2C50A2FD004B993B /* Assets.xcassets */; };
+		C87E47E32C50A2FD004B993B /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C87E47E22C50A2FD004B993B /* Preview Assets.xcassets */; };
+		C8C303402C52309000AAE588 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C8C3033F2C52309000AAE588 /* LaunchScreen.storyboard */; };
+		C8C303422C5231E500AAE588 /* LaunchScreenView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C8C303412C5231E500AAE588 /* LaunchScreenView.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		C87E47E92C50A2FD004B993B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = C87E47CF2C50A2FB004B993B /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = C87E47D62C50A2FC004B993B;
+			remoteInfo = SiamAI;
+		};
+		C87E47F32C50A2FD004B993B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = C87E47CF2C50A2FB004B993B /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = C87E47D62C50A2FC004B993B;
+			remoteInfo = SiamAI;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		C87E47D72C50A2FC004B993B /* SiamAI.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SiamAI.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		C87E47DA2C50A2FC004B993B /* SiamAIApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SiamAIApp.swift; sourceTree = "<group>"; };
+		C87E47DC2C50A2FC004B993B /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		C87E47DE2C50A2FD004B993B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		C87E47E02C50A2FD004B993B /* SiamAI.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = SiamAI.entitlements; sourceTree = "<group>"; };
+		C87E47E22C50A2FD004B993B /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		C87E47E82C50A2FD004B993B /* SiamAITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SiamAITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		C87E47F22C50A2FD004B993B /* SiamAIUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SiamAIUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		C87E48052C51E26F004B993B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
+		C8C3033F2C52309000AAE588 /* LaunchScreen.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = LaunchScreen.storyboard; sourceTree = "<group>"; };
+		C8C303412C5231E500AAE588 /* LaunchScreenView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LaunchScreenView.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		C87E47D42C50A2FC004B993B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C87E47E52C50A2FD004B993B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C87E47EF2C50A2FD004B993B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		C87E47CE2C50A2FB004B993B = {
+			isa = PBXGroup;
+			children = (
+				C87E47D92C50A2FC004B993B /* SiamAI */,
+				C87E47D82C50A2FC004B993B /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		C87E47D82C50A2FC004B993B /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				C87E47D72C50A2FC004B993B /* SiamAI.app */,
+				C87E47E82C50A2FD004B993B /* SiamAITests.xctest */,
+				C87E47F22C50A2FD004B993B /* SiamAIUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		C87E47D92C50A2FC004B993B /* SiamAI */ = {
+			isa = PBXGroup;
+			children = (
+				C8C3033F2C52309000AAE588 /* LaunchScreen.storyboard */,
+				C87E48052C51E26F004B993B /* Info.plist */,
+				C87E47DA2C50A2FC004B993B /* SiamAIApp.swift */,
+				C87E47DC2C50A2FC004B993B /* ContentView.swift */,
+				C87E47DE2C50A2FD004B993B /* Assets.xcassets */,
+				C87E47E02C50A2FD004B993B /* SiamAI.entitlements */,
+				C87E47E12C50A2FD004B993B /* Preview Content */,
+				C8C303412C5231E500AAE588 /* LaunchScreenView.swift */,
+			);
+			path = SiamAI;
+			sourceTree = "<group>";
+		};
+		C87E47E12C50A2FD004B993B /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				C87E47E22C50A2FD004B993B /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		C87E47D62C50A2FC004B993B /* SiamAI */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C87E47FC2C50A2FD004B993B /* Build configuration list for PBXNativeTarget "SiamAI" */;
+			buildPhases = (
+				C87E47D32C50A2FC004B993B /* Sources */,
+				C87E47D42C50A2FC004B993B /* Frameworks */,
+				C87E47D52C50A2FC004B993B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SiamAI;
+			productName = SiamAI;
+			productReference = C87E47D72C50A2FC004B993B /* SiamAI.app */;
+			productType = "com.apple.product-type.application";
+		};
+		C87E47E72C50A2FD004B993B /* SiamAITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C87E47FF2C50A2FD004B993B /* Build configuration list for PBXNativeTarget "SiamAITests" */;
+			buildPhases = (
+				C87E47E42C50A2FD004B993B /* Sources */,
+				C87E47E52C50A2FD004B993B /* Frameworks */,
+				C87E47E62C50A2FD004B993B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				C87E47EA2C50A2FD004B993B /* PBXTargetDependency */,
+			);
+			name = SiamAITests;
+			productName = SiamAITests;
+			productReference = C87E47E82C50A2FD004B993B /* SiamAITests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		C87E47F12C50A2FD004B993B /* SiamAIUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C87E48022C50A2FD004B993B /* Build configuration list for PBXNativeTarget "SiamAIUITests" */;
+			buildPhases = (
+				C87E47EE2C50A2FD004B993B /* Sources */,
+				C87E47EF2C50A2FD004B993B /* Frameworks */,
+				C87E47F02C50A2FD004B993B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				C87E47F42C50A2FD004B993B /* PBXTargetDependency */,
+			);
+			name = SiamAIUITests;
+			productName = SiamAIUITests;
+			productReference = C87E47F22C50A2FD004B993B /* SiamAIUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		C87E47CF2C50A2FB004B993B /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1540;
+				LastUpgradeCheck = 1540;
+				ORGANIZATIONNAME = "Siam university";
+				TargetAttributes = {
+					C87E47D62C50A2FC004B993B = {
+						CreatedOnToolsVersion = 15.4;
+					};
+					C87E47E72C50A2FD004B993B = {
+						CreatedOnToolsVersion = 15.4;
+						TestTargetID = C87E47D62C50A2FC004B993B;
+					};
+					C87E47F12C50A2FD004B993B = {
+						CreatedOnToolsVersion = 15.4;
+						TestTargetID = C87E47D62C50A2FC004B993B;
+					};
+				};
+			};
+			buildConfigurationList = C87E47D22C50A2FB004B993B /* Build configuration list for PBXProject "SiamAI" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = C87E47CE2C50A2FB004B993B;
+			productRefGroup = C87E47D82C50A2FC004B993B /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				C87E47D62C50A2FC004B993B /* SiamAI */,
+				C87E47E72C50A2FD004B993B /* SiamAITests */,
+				C87E47F12C50A2FD004B993B /* SiamAIUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		C87E47D52C50A2FC004B993B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C8C303402C52309000AAE588 /* LaunchScreen.storyboard in Resources */,
+				C87E47E32C50A2FD004B993B /* Preview Assets.xcassets in Resources */,
+				C87E47DF2C50A2FD004B993B /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C87E47E62C50A2FD004B993B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C87E47F02C50A2FD004B993B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		C87E47D32C50A2FC004B993B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C87E47DD2C50A2FC004B993B /* ContentView.swift in Sources */,
+				C87E47DB2C50A2FC004B993B /* SiamAIApp.swift in Sources */,
+				C8C303422C5231E500AAE588 /* LaunchScreenView.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C87E47E42C50A2FD004B993B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C87E47EE2C50A2FD004B993B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		C87E47EA2C50A2FD004B993B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = C87E47D62C50A2FC004B993B /* SiamAI */;
+			targetProxy = C87E47E92C50A2FD004B993B /* PBXContainerItemProxy */;
+		};
+		C87E47F42C50A2FD004B993B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = C87E47D62C50A2FC004B993B /* SiamAI */;
+			targetProxy = C87E47F32C50A2FD004B993B /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		C87E47FA2C50A2FD004B993B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		C87E47FB2C50A2FD004B993B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SWIFT_COMPILATION_MODE = wholemodule;
+			};
+			name = Release;
+		};
+		C87E47FD2C50A2FD004B993B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				"ASSETCATALOG_COMPILER_APPICON_NAME[sdk=iphoneos*]" = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				ASSETCATALOG_COMPILER_INCLUDE_ALL_APPICON_ASSETS = YES;
+				CODE_SIGN_ENTITLEMENTS = SiamAI/SiamAI.entitlements;
+				CODE_SIGN_IDENTITY = "Apple Development";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"SiamAI/Preview Content\"";
+				DEVELOPMENT_TEAM = RZTRX73282;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = SiamAI/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = SiamAI;
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.education";
+				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphonesimulator*]" = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen.storyboard;
+				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphoneos*]" = UIStatusBarStyleDefault;
+				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphonesimulator*]" = UIStatusBarStyleDefault;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 17.5;
+				LD_RUNPATH_SEARCH_PATHS = "@executable_path/Frameworks";
+				"LD_RUNPATH_SEARCH_PATHS[sdk=macosx*]" = "@executable_path/../Frameworks";
+				MACOSX_DEPLOYMENT_TARGET = 14.5;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = Siamuniversity.SiamAI;
+				"PRODUCT_BUNDLE_IDENTIFIER[sdk=iphoneos*]" = siamai;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		C87E47FE2C50A2FD004B993B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				"ASSETCATALOG_COMPILER_APPICON_NAME[sdk=iphoneos*]" = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				ASSETCATALOG_COMPILER_INCLUDE_ALL_APPICON_ASSETS = YES;
+				CODE_SIGN_ENTITLEMENTS = SiamAI/SiamAI.entitlements;
+				CODE_SIGN_IDENTITY = "Apple Development";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"SiamAI/Preview Content\"";
+				DEVELOPMENT_TEAM = RZTRX73282;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = SiamAI/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = SiamAI;
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.education";
+				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphonesimulator*]" = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen.storyboard;
+				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphoneos*]" = UIStatusBarStyleDefault;
+				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphonesimulator*]" = UIStatusBarStyleDefault;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 17.5;
+				LD_RUNPATH_SEARCH_PATHS = "@executable_path/Frameworks";
+				"LD_RUNPATH_SEARCH_PATHS[sdk=macosx*]" = "@executable_path/../Frameworks";
+				MACOSX_DEPLOYMENT_TARGET = 14.5;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = Siamuniversity.SiamAI;
+				"PRODUCT_BUNDLE_IDENTIFIER[sdk=iphoneos*]" = siamai;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		C87E48002C50A2FD004B993B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.5;
+				MACOSX_DEPLOYMENT_TARGET = 14.5;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = Siamuniversity.SiamAITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SiamAI.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/SiamAI";
+			};
+			name = Debug;
+		};
+		C87E48012C50A2FD004B993B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.5;
+				MACOSX_DEPLOYMENT_TARGET = 14.5;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = Siamuniversity.SiamAITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SiamAI.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/SiamAI";
+			};
+			name = Release;
+		};
+		C87E48032C50A2FD004B993B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.5;
+				MACOSX_DEPLOYMENT_TARGET = 14.5;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = Siamuniversity.SiamAIUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = SiamAI;
+			};
+			name = Debug;
+		};
+		C87E48042C50A2FD004B993B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.5;
+				MACOSX_DEPLOYMENT_TARGET = 14.5;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = Siamuniversity.SiamAIUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = SiamAI;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		C87E47D22C50A2FB004B993B /* Build configuration list for PBXProject "SiamAI" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C87E47FA2C50A2FD004B993B /* Debug */,
+				C87E47FB2C50A2FD004B993B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C87E47FC2C50A2FD004B993B /* Build configuration list for PBXNativeTarget "SiamAI" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C87E47FD2C50A2FD004B993B /* Debug */,
+				C87E47FE2C50A2FD004B993B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C87E47FF2C50A2FD004B993B /* Build configuration list for PBXNativeTarget "SiamAITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C87E48002C50A2FD004B993B /* Debug */,
+				C87E48012C50A2FD004B993B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C87E48022C50A2FD004B993B /* Build configuration list for PBXNativeTarget "SiamAIUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C87E48032C50A2FD004B993B /* Debug */,
+				C87E48042C50A2FD004B993B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = C87E47CF2C50A2FB004B993B /* Project object */;
+}
